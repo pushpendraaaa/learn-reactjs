@@ -1,9 +1,11 @@
 import "./App.css";
+import Greet from "./components/01Greet";
 
 function App() {
 	return (
 		<div className="App">
-			<p>Hello World!</p>
+			<Greet />
+			{/* <p>Hello World!</p> */}
 		</div>
 	);
 }
