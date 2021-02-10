@@ -1,6 +1,6 @@
 import React from "react";
 
-const Greet = () => <h1>Hello Pushpendra</h1>;
+const GreetFunctional = () => <h1>Hello Pushpendra</h1>;
 
 // const Greet = () => {
 // 	return (
@@ -18,4 +18,4 @@ const Greet = () => <h1>Hello Pushpendra</h1>;
 // 	);
 // }
 
-export default Greet;
+export default GreetFunctional;
