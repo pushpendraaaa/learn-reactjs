@@ -1,12 +1,14 @@
 import "./App.css";
-import GreetFunctional from "./components/01GreetFunctional";
-import WelcomeClass from "./components/02WelcomeClass";
-import WithAndWithoutJsx from "./components/03WithAndWithoutJsx";
+// import GreetFunctional from "./components/01GreetFunctional";
+// import WelcomeClass from "./components/02WelcomeClass";
+// import WithAndWithoutJsx from "./components/03WithAndWithoutJsx";
+import Message from "./components/04Message";
 
 function App() {
 	return (
 		<div className="App">
-			<WelcomeClass name="Bruce" heroName="Batman">
+			<Message />
+			{/* <WelcomeClass name="Bruce" heroName="Batman">
 				This is children props.
 			</WelcomeClass>
 			<WelcomeClass name="Clark" heroName="Superman">
@@ -19,7 +21,7 @@ function App() {
 			<GreetFunctional name="Clark" heroName="Superman">
 				<button>Action</button>
 			</GreetFunctional>
-			<GreetFunctional name="Diana" heroName="Wonder Women" />
+			<GreetFunctional name="Diana" heroName="Wonder Women" /> */}
 			{/* <WithAndWithoutJsx /> */}
 			{/* <WelcomeClass /> */}
 			{/* <GreetFunctional /> */}
