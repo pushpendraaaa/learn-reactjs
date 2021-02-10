@@ -68,3 +68,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### What is react?
+
+1. Open source library for building user interface (JavaScript Library)
+2. Not a framework
+3. Focus on UI
+4. Rich ecosystem
+
+### Why learn React?
+
+1. Created by facebook
+2. Huge community
+3. More than 100k stars on Github
+4. In Demamd Skillset
+
+### Component Based Architecture
+
+### Reausable Code
+
+### React is Declarative
+
+### Prerequisites
+
+1. HTML, CSS, and JavaScript fundamentals
+2. ES6
+3. JavaScript - "this" keyword, filter, map and reduce
+4. ES6 - let & const, arrow functions, template literals, default parameters, object literals, rest and spread operators and destucturing assignment.
+
+### React Content
+
+1. React Fundamentals
+2. HTTP (AJAX Request)
+3. Routing
+4. Redux (State Management)
+5. Utilities
