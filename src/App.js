@@ -1,4 +1,5 @@
 import "./App.css";
+import ParentComponent from "./components/01-method-as-props/09-ParentComponent";
 // import GreetFunctional from "./components/01GreetFunctional";
 // import WelcomeClass from "./components/02WelcomeClass";
 // import WithAndWithoutJsx from "./components/03WithAndWithoutJsx";
@@ -6,12 +7,13 @@ import "./App.css";
 // import Counter from "./components/05Counter";
 // import FunctionClick from "./components/06FunctionClick";
 // import ClassClick from "./components/07ClassClick";
-import EventBind from "./components/08EventBind";
+// import EventBind from "./components/08EventBind";
 
 function App() {
 	return (
 		<div className="App">
-			<EventBind />
+			<ParentComponent />
+			{/* <EventBind /> */}
 			{/* <ClassClick /> */}
 			{/* <FunctionClick /> */}
 			{/* <Counter /> */}
