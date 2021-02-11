@@ -3,12 +3,16 @@ import "./App.css";
 // import WelcomeClass from "./components/02WelcomeClass";
 // import WithAndWithoutJsx from "./components/03WithAndWithoutJsx";
 // import Message from "./components/04Message";
-import Counter from "./components/05Counter";
+// import Counter from "./components/05Counter";
+import FunctionClick from "./components/06FunctionClick";
+import ClassClick from "./components/07ClassClick";
 
 function App() {
 	return (
 		<div className="App">
-			<Counter />
+			<ClassClick />
+			<FunctionClick />
+			{/* <Counter /> */}
 			{/* <Message /> */}
 			{/* <WelcomeClass name="Bruce" heroName="Batman">
 				This is children props.
