@@ -1,16 +1,28 @@
 import React from "react";
 
 const GreetFunctional = (props) => {
+	// const GreetFunctional = ({name, heroName, children}) => {
+	const { name, heroName, children } = props;
 	// console.log(props);
-	props.name = "Pushpendra"; // Don't do this bcz props are immutable
+	// props.name = "Pushpendra"; // Don't do this bcz props are immutable
+
 	return (
 		<div>
 			<h1>
-				Hello {props.name} a.k.a {props.heroName}
+				Hello {name} a.k.a {heroName}
 			</h1>
-			{props.children}
+			{children}
 		</div>
 	);
+
+	// return (
+	// 	<div>
+	// 		<h1>
+	// 			Hello {props.name} a.k.a {props.heroName}
+	// 		</h1>
+	// 		{props.children}
+	// 	</div>
+	// );
 };
 
 // const Greet = () => {
