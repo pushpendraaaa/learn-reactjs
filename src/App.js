@@ -1,8 +1,9 @@
 import "./App.css";
+import LifeCycleA from "./components/14-lifecycle-method/1402-updating/1401-LifeCycleA";
 // import "./1304-appStyle.css";
 // import styles from "./1305-appStyle.module.css";
 // import Form from "./components/13-form-handing/1301-Form";
-import LifeCycleA from "./components/14-lifecycle-method/1401-mounting/1401-LifeCycleA";
+// import LifeCycleA from "./components/14-lifecycle-method/1401-mounting/1401-LifeCycleA";
 // import Inline from "./components/13-styling/1303-Inline";
 // import Stylesheet from "./components/13-styling/1301-Stylesheet";
 // import NameList from "./components/12-list-rendering/1201-NameList";
