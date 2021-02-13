@@ -1,5 +1,6 @@
 import "./App.css";
-import ParentComponent from "./components/01-method-as-props/09-ParentComponent";
+import UserGreeting from "./components/02-conditional-rendering/11-UserGreeting";
+// import ParentComponent from "./components/01-method-as-props/09-ParentComponent";
 // import GreetFunctional from "./components/01GreetFunctional";
 // import WelcomeClass from "./components/02WelcomeClass";
 // import WithAndWithoutJsx from "./components/03WithAndWithoutJsx";
@@ -12,7 +13,8 @@ import ParentComponent from "./components/01-method-as-props/09-ParentComponent"
 function App() {
 	return (
 		<div className="App">
-			<ParentComponent />
+			<UserGreeting />
+			{/* <ParentComponent /> */}
 			{/* <EventBind /> */}
 			{/* <ClassClick /> */}
 			{/* <FunctionClick /> */}
