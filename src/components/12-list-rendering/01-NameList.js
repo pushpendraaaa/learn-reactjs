@@ -26,6 +26,12 @@ function NameList() {
 	];
 
 	// const nameList = names.map((name) => <h1>{name}</h1>);
+	// const nameList = names.map((name, index) => (
+	// 	<h1 key={index}>
+	// 		{index} {name}
+	// 	</h1>
+	// ));
+
 	const personList = persons.map((person) => (
 		<Person key={person.id} person={person} />
 	));
