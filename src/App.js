@@ -1,5 +1,6 @@
 import "./App.css";
-import UserGreeting from "./components/02-conditional-rendering/11-UserGreeting";
+import NameList from "./components/12-list-rendering/01-NameList";
+// import UserGreeting from "./components/11-conditional-rendering/11-UserGreeting";
 // import ParentComponent from "./components/01-method-as-props/09-ParentComponent";
 // import GreetFunctional from "./components/01GreetFunctional";
 // import WelcomeClass from "./components/02WelcomeClass";
@@ -13,7 +14,8 @@ import UserGreeting from "./components/02-conditional-rendering/11-UserGreeting"
 function App() {
 	return (
 		<div className="App">
-			<UserGreeting />
+			<NameList />
+			{/* <UserGreeting /> */}
 			{/* <ParentComponent /> */}
 			{/* <EventBind /> */}
 			{/* <ClassClick /> */}
