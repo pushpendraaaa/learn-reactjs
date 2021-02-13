@@ -1,5 +1,5 @@
 import React from "react";
-import Person from "./02-Person";
+import Person from "./1102-Person";
 
 function NameList() {
 	// const names = ["Bruce", "Clark", "Diana"];

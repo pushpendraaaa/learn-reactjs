@@ -1,5 +1,10 @@
 import "./App.css";
-import NameList from "./components/12-list-rendering/01-NameList";
+// import "./1304-appStyle.css";
+// import styles from "./1305-appStyle.module.css";
+import Form from "./components/13-form-handing/1301-Form";
+// import Inline from "./components/13-styling/1303-Inline";
+// import Stylesheet from "./components/13-styling/1301-Stylesheet";
+// import NameList from "./components/12-list-rendering/1201-NameList";
 // import UserGreeting from "./components/11-conditional-rendering/11-UserGreeting";
 // import ParentComponent from "./components/01-method-as-props/09-ParentComponent";
 // import GreetFunctional from "./components/01GreetFunctional";
@@ -14,7 +19,12 @@ import NameList from "./components/12-list-rendering/01-NameList";
 function App() {
 	return (
 		<div className="App">
-			<NameList />
+			<Form />
+			{/* <h1 className="error">Error</h1> */}
+			{/* <h1 className={styles.success}>Success</h1> */}
+			{/* <Inline /> */}
+			{/* <Stylesheet primary={true} /> */}
+			{/* <NameList /> */}
 			{/* <UserGreeting /> */}
 			{/* <ParentComponent /> */}
 			{/* <EventBind /> */}
