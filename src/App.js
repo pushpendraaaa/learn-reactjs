@@ -1,5 +1,7 @@
 import "./App.css";
-import LifeCycleA from "./components/14-lifecycle-method/1402-updating/1401-LifeCycleA";
+// import LifeCycleA from "./components/14-lifecycle-method/1402-updating/1401-LifeCycleA";
+// import Fragment from "./components/15-fragments/1501-Fragment";
+import Table from "./components/15-fragments/1502-Table";
 // import "./1304-appStyle.css";
 // import styles from "./1305-appStyle.module.css";
 // import Form from "./components/13-form-handing/1301-Form";
@@ -21,7 +23,9 @@ import LifeCycleA from "./components/14-lifecycle-method/1402-updating/1401-Life
 function App() {
 	return (
 		<div className="App">
-			<LifeCycleA />
+			<Table />
+			{/* <Fragment /> */}
+			{/* <LifeCycleA /> */}
 			{/* <Form /> */}
 			{/* <h1 className="error">Error</h1> */}
 			{/* <h1 className={styles.success}>Success</h1> */}
