@@ -8,6 +8,8 @@ import "./App.css";
 // import FocusInput from "./components/18-refs/1803-FocusInput";
 import FRParentInput from "./components/18-refs/1805-FRParentInput";
 import PortalDemo from "./components/19-portals/1901-PortalDemo";
+import Hero from "./components/20-error-handling/2001-Hero";
+import ErrorBoundary from "./components/20-error-handling/2002-ErrorBoundary";
 // import "./1304-appStyle.css";
 // import styles from "./1305-appStyle.module.css";
 // import Form from "./components/13-form-handing/1301-Form";
@@ -29,7 +31,21 @@ import PortalDemo from "./components/19-portals/1901-PortalDemo";
 function App() {
 	return (
 		<div className="App">
-			<PortalDemo />
+			<ErrorBoundary>
+				<Hero heroName="Superman" />
+			</ErrorBoundary>
+			<ErrorBoundary>
+				<Hero heroName="Batman" />
+			</ErrorBoundary>
+			<ErrorBoundary>
+				<Hero heroName="Joker" />
+			</ErrorBoundary>
+			{/* <ErrorBoundary>
+				<Hero heroName="Superman" />
+				<Hero heroName="Batman" />
+				<Hero heroName="Joker" />
+			</ErrorBoundary> */}
+			{/* <PortalDemo /> */}
 			{/* <FRParentInput /> */}
 			{/* <FocusInput /> */}
 			{/* <RefsDemo /> */}
