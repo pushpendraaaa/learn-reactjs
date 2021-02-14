@@ -5,6 +5,7 @@ import "./App.css";
 // import PureComp from "./components/16-pure-component/1601-PureComp";
 // import ParentComp from "./components/16-pure-component/1603-ParentComp";
 import RefsDemo from "./components/18-refs/1801-RefsDemo";
+import FocusInput from "./components/18-refs/1803-FocusInput";
 // import "./1304-appStyle.css";
 // import styles from "./1305-appStyle.module.css";
 // import Form from "./components/13-form-handing/1301-Form";
@@ -26,7 +27,8 @@ import RefsDemo from "./components/18-refs/1801-RefsDemo";
 function App() {
 	return (
 		<div className="App">
-			<RefsDemo />
+			<FocusInput />
+			{/* <RefsDemo /> */}
 			{/* <ParentComp /> */}
 			{/* <PureComp /> */}
 			{/* <Table /> */}
