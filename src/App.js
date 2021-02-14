@@ -2,6 +2,8 @@ import "./App.css";
 // import LifeCycleA from "./components/14-lifecycle-method/1402-updating/1401-LifeCycleA";
 // import Fragment from "./components/15-fragments/1501-Fragment";
 import Table from "./components/15-fragments/1502-Table";
+import PureComp from "./components/16-pure-component/1601-PureComp";
+import ParentComp from "./components/16-pure-component/1603-ParentComp";
 // import "./1304-appStyle.css";
 // import styles from "./1305-appStyle.module.css";
 // import Form from "./components/13-form-handing/1301-Form";
@@ -23,7 +25,9 @@ import Table from "./components/15-fragments/1502-Table";
 function App() {
 	return (
 		<div className="App">
-			<Table />
+			<ParentComp />
+			{/* <PureComp /> */}
+			{/* <Table /> */}
 			{/* <Fragment /> */}
 			{/* <LifeCycleA /> */}
 			{/* <Form /> */}
