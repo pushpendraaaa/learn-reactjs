@@ -7,6 +7,7 @@ import "./App.css";
 // import RefsDemo from "./components/18-refs/1801-RefsDemo";
 // import FocusInput from "./components/18-refs/1803-FocusInput";
 import FRParentInput from "./components/18-refs/1805-FRParentInput";
+import PortalDemo from "./components/19-portals/1901-PortalDemo";
 // import "./1304-appStyle.css";
 // import styles from "./1305-appStyle.module.css";
 // import Form from "./components/13-form-handing/1301-Form";
@@ -28,7 +29,8 @@ import FRParentInput from "./components/18-refs/1805-FRParentInput";
 function App() {
 	return (
 		<div className="App">
-			<FRParentInput />
+			<PortalDemo />
+			{/* <FRParentInput /> */}
 			{/* <FocusInput /> */}
 			{/* <RefsDemo /> */}
 			{/* <ParentComp /> */}
