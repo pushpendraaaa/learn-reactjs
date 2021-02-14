@@ -6,10 +6,12 @@ import "./App.css";
 // import ParentComp from "./components/16-pure-component/1603-ParentComp";
 // import RefsDemo from "./components/18-refs/1801-RefsDemo";
 // import FocusInput from "./components/18-refs/1803-FocusInput";
-import FRParentInput from "./components/18-refs/1805-FRParentInput";
-import PortalDemo from "./components/19-portals/1901-PortalDemo";
-import Hero from "./components/20-error-handling/2001-Hero";
-import ErrorBoundary from "./components/20-error-handling/2002-ErrorBoundary";
+// import FRParentInput from "./components/18-refs/1805-FRParentInput";
+// import PortalDemo from "./components/19-portals/1901-PortalDemo";
+// import Hero from "./components/20-error-handling/2001-Hero";
+// import ErrorBoundary from "./components/20-error-handling/2002-ErrorBoundary";
+import ClickCounter from "./components/21-hoc/2101-ClickCounter";
+import HoverCounter from "./components/21-hoc/2102-HoverCounter";
 // import "./1304-appStyle.css";
 // import styles from "./1305-appStyle.module.css";
 // import Form from "./components/13-form-handing/1301-Form";
@@ -31,7 +33,9 @@ import ErrorBoundary from "./components/20-error-handling/2002-ErrorBoundary";
 function App() {
 	return (
 		<div className="App">
-			<ErrorBoundary>
+			<ClickCounter name="Pushpendra" />
+			<HoverCounter />
+			{/* <ErrorBoundary>
 				<Hero heroName="Superman" />
 			</ErrorBoundary>
 			<ErrorBoundary>
@@ -39,7 +43,7 @@ function App() {
 			</ErrorBoundary>
 			<ErrorBoundary>
 				<Hero heroName="Joker" />
-			</ErrorBoundary>
+			</ErrorBoundary> */}
 			{/* <ErrorBoundary>
 				<Hero heroName="Superman" />
 				<Hero heroName="Batman" />
