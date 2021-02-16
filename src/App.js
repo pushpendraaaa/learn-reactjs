@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./components/22-render-props/2204-Counter";
 // import LifeCycleA from "./components/14-lifecycle-method/1402-updating/1401-LifeCycleA";
 // import Fragment from "./components/15-fragments/1501-Fragment";
 // import Table from "./components/15-fragments/1502-Table";
@@ -10,8 +11,11 @@ import "./App.css";
 // import PortalDemo from "./components/19-portals/1901-PortalDemo";
 // import Hero from "./components/20-error-handling/2001-Hero";
 // import ErrorBoundary from "./components/20-error-handling/2002-ErrorBoundary";
-import ClickCounter from "./components/21-hoc/2101-ClickCounter";
-import HoverCounter from "./components/21-hoc/2102-HoverCounter";
+// import ClickCounter from "./components/21-hoc/2101-ClickCounter";
+// import HoverCounter from "./components/21-hoc/2102-HoverCounter";
+import ClickCounterTwo from "./components/22-render-props/2201-ClickCounterTwo";
+import HoverCounterTwo from "./components/22-render-props/2202-HoverCounterTwo";
+// import User from "./components/22-render-props/2203-User";
 // import "./1304-appStyle.css";
 // import styles from "./1305-appStyle.module.css";
 // import Form from "./components/13-form-handing/1301-Form";
@@ -33,8 +37,23 @@ import HoverCounter from "./components/21-hoc/2102-HoverCounter";
 function App() {
 	return (
 		<div className="App">
-			<ClickCounter name="Pushpendra" />
-			<HoverCounter />
+			<Counter
+				render={(count, incrementCount) => (
+					<ClickCounterTwo count={count} incrementCount={incrementCount} />
+				)}
+			/>
+			<Counter
+				render={(count, incrementCount) => (
+					<HoverCounterTwo count={count} incrementCount={incrementCount} />
+				)}
+			/>
+			{/* <User render={(isLoggedIn) => (isLoggedIn ? "Pushpendra" : "Guest")} /> */}
+			{/* <User name={() => "Pushpendra"} /> */}
+			{/* <User name="Pushpendra" /> */}
+			{/* <HoverCounterTwo /> */}
+			{/* <ClickCounterTwo /> */}
+			{/* <ClickCounter name="Pushpendra" /> */}
+			{/* <HoverCounter /> */}
 			{/* <ErrorBoundary>
 				<Hero heroName="Superman" />
 			</ErrorBoundary>
