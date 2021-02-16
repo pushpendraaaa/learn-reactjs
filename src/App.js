@@ -1,6 +1,8 @@
 import "./App.css";
-import ComponentC from "./components/23-context-api/2301-ComponentC";
-import { UserProvider } from "./components/23-context-api/2304-UserContext";
+// import ComponentC from "./components/23-context-api/2301-ComponentC";
+// import { UserProvider } from "./components/23-context-api/2304-UserContext";
+// import PostList from "./components/24-http/2401-PostList";
+import PostForm from "./components/24-http/2402-PostForm";
 // import Counter from "./components/22-render-props/2204-Counter";
 // import LifeCycleA from "./components/14-lifecycle-method/1402-updating/1401-LifeCycleA";
 // import Fragment from "./components/15-fragments/1501-Fragment";
@@ -39,9 +41,11 @@ import { UserProvider } from "./components/23-context-api/2304-UserContext";
 function App() {
 	return (
 		<div className="App">
-			<UserProvider value="Pushpendra">
+			<PostForm />
+			{/* <PostList /> */}
+			{/* <UserProvider value="Pushpendra">
 				<ComponentC />
-			</UserProvider>
+			</UserProvider> */}
 			{/* <Counter
 				render={(count, incrementCount) => (
 					<ClickCounterTwo count={count} incrementCount={incrementCount} />
