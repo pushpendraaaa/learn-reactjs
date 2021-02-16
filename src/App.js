@@ -1,8 +1,10 @@
 import "./App.css";
+import ClassCounter from "./react-hooks/01-ClassCounter";
+import HookCounter from "./react-hooks/02-HookCounter";
 // import ComponentC from "./components/23-context-api/2301-ComponentC";
 // import { UserProvider } from "./components/23-context-api/2304-UserContext";
 // import PostList from "./components/24-http/2401-PostList";
-import PostForm from "./components/24-http/2402-PostForm";
+// import PostForm from "./components/24-http/2402-PostForm";
 // import Counter from "./components/22-render-props/2204-Counter";
 // import LifeCycleA from "./components/14-lifecycle-method/1402-updating/1401-LifeCycleA";
 // import Fragment from "./components/15-fragments/1501-Fragment";
@@ -41,7 +43,9 @@ import PostForm from "./components/24-http/2402-PostForm";
 function App() {
 	return (
 		<div className="App">
-			<PostForm />
+			<HookCounter />
+			<ClassCounter />
+			{/* <PostForm /> */}
 			{/* <PostList /> */}
 			{/* <UserProvider value="Pushpendra">
 				<ComponentC />
