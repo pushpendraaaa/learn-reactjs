@@ -3,7 +3,14 @@ import "./App.css";
 // import HookCounter from "./react-hooks/02-HookCounter";
 // import HookCounterTwo from "./react-hooks/03-HookCounterTwo";
 // import HookCounterThree from "./react-hooks/04-HookCounterThree";
-import HookCounterFour from "./react-hooks/05-HookCounterFour";
+// import HookCounterFour from "./react-hooks/05-HookCounterFour";
+// import ClassCounterOne from "./react-hooks/06-ClassCounterOne";
+// import HookCounterOne from "./react-hooks/07-HookCounterOne";
+// import ClassMouse from "./react-hooks/08-ClassMouse";
+// import HookMouse from "./react-hooks/09-HookMouse";
+// import MouseContainer from "./react-hooks/10-MouseContainer";
+import IntervalClassCounter from "./react-hooks/11-IntervalClassCounter";
+import IntervalHookCounter from "./react-hooks/12-IntervalHookCounter";
 // import ComponentC from "./components/23-context-api/2301-ComponentC";
 // import { UserProvider } from "./components/23-context-api/2304-UserContext";
 // import PostList from "./components/24-http/2401-PostList";
@@ -46,7 +53,14 @@ import HookCounterFour from "./react-hooks/05-HookCounterFour";
 function App() {
 	return (
 		<div className="App">
-			<HookCounterFour />
+			<IntervalHookCounter />
+			<IntervalClassCounter />
+			{/* <MouseContainer /> */}
+			{/* <HookMouse /> */}
+			{/* <ClassMouse /> */}
+			{/* <HookCounterOne /> */}
+			{/* <ClassCounterOne /> */}
+			{/* <HookCounterFour /> */}
 			{/* <HookCounterThree /> */}
 			{/* <HookCounterTwo /> */}
 			{/* <HookCounter /> */}
