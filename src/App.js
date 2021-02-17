@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
-import ComponentC from "./react-hooks/context-api/14-ComponentC";
+// import CounterTwo from "./components/18-CounterTwo";
+import CounterThree from "./react-hooks/19-CounterThree";
+// import CounterOne from "./react-hooks/17-CounterOne";
+// import ComponentC from "./react-hooks/context-api/14-ComponentC";
 // import ClassCounter from "./react-hooks/01-ClassCounter";
 // import HookCounter from "./react-hooks/02-HookCounter";
 // import HookCounterTwo from "./react-hooks/03-HookCounterTwo";
@@ -62,11 +65,14 @@ function App() {
 
 	return (
 		<div className="App">
-			<UserContext.Provider value={"Pushpendra"}>
+			<CounterThree />
+			{/* <CounterTwo /> */}
+			{/* <CounterOne /> */}
+			{/* <UserContext.Provider value={"Pushpendra"}>
 				<ChannelContext.Provider value={"Code Evolution"}>
 					<ComponentC />
 				</ChannelContext.Provider>
-			</UserContext.Provider>
+			</UserContext.Provider> */}
 			{/* <DataFetching /> */}
 			{/* <IntervalHookCounter /> */}
 			{/* <IntervalClassCounter /> */}
