@@ -9,8 +9,9 @@ import "./App.css";
 // import ClassMouse from "./react-hooks/08-ClassMouse";
 // import HookMouse from "./react-hooks/09-HookMouse";
 // import MouseContainer from "./react-hooks/10-MouseContainer";
-import IntervalClassCounter from "./react-hooks/11-IntervalClassCounter";
-import IntervalHookCounter from "./react-hooks/12-IntervalHookCounter";
+// import IntervalClassCounter from "./react-hooks/11-IntervalClassCounter";
+// import IntervalHookCounter from "./react-hooks/12-IntervalHookCounter";
+import DataFetching from "./react-hooks/13-DataFetching";
 // import ComponentC from "./components/23-context-api/2301-ComponentC";
 // import { UserProvider } from "./components/23-context-api/2304-UserContext";
 // import PostList from "./components/24-http/2401-PostList";
@@ -53,8 +54,9 @@ import IntervalHookCounter from "./react-hooks/12-IntervalHookCounter";
 function App() {
 	return (
 		<div className="App">
-			<IntervalHookCounter />
-			<IntervalClassCounter />
+			<DataFetching />
+			{/* <IntervalHookCounter /> */}
+			{/* <IntervalClassCounter /> */}
 			{/* <MouseContainer /> */}
 			{/* <HookMouse /> */}
 			{/* <ClassMouse /> */}
