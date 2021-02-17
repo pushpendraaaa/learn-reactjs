@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 // import DataFetchingOne from "./react-hooks/26-DataFetchingOne";
-import DataFetchingTwo from "./react-hooks/27-DataFetchingTwo";
+// import DataFetchingTwo from "./react-hooks/27-DataFetchingTwo";
+import ParentComponent from "./react-hooks/28-ParentComponent";
 // import CounterTwo from "./components/18-CounterTwo";
 // import CounterThree from "./react-hooks/19-CounterThree";
 // import ComponentA from "./react-hooks/useReducer-with-useContext/20-ComponentA";
@@ -85,7 +86,8 @@ function App() {
 
 	return (
 		<div className="App">
-			<DataFetchingTwo />
+			<ParentComponent />
+			{/* <DataFetchingTwo /> */}
 			{/* <DataFetchingOne /> */}
 			{/* <CountContext.Provider value={{ countState: count, countDispatch: dispatch }}>
 				Count - {count}
