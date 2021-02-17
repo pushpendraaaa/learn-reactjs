@@ -1,4 +1,6 @@
+import React from "react";
 import "./App.css";
+import ComponentC from "./react-hooks/context-api/14-ComponentC";
 // import ClassCounter from "./react-hooks/01-ClassCounter";
 // import HookCounter from "./react-hooks/02-HookCounter";
 // import HookCounterTwo from "./react-hooks/03-HookCounterTwo";
@@ -11,7 +13,7 @@ import "./App.css";
 // import MouseContainer from "./react-hooks/10-MouseContainer";
 // import IntervalClassCounter from "./react-hooks/11-IntervalClassCounter";
 // import IntervalHookCounter from "./react-hooks/12-IntervalHookCounter";
-import DataFetching from "./react-hooks/13-DataFetching";
+// import DataFetching from "./react-hooks/13-DataFetching";
 // import ComponentC from "./components/23-context-api/2301-ComponentC";
 // import { UserProvider } from "./components/23-context-api/2304-UserContext";
 // import PostList from "./components/24-http/2401-PostList";
@@ -51,10 +53,21 @@ import DataFetching from "./react-hooks/13-DataFetching";
 // import ClassClick from "./components/07ClassClick";
 // import EventBind from "./components/08EventBind";
 
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
+
 function App() {
+	// Hooks
+	// const UserContext = useContext();
+
 	return (
 		<div className="App">
-			<DataFetching />
+			<UserContext.Provider value={"Pushpendra"}>
+				<ChannelContext.Provider value={"Code Evolution"}>
+					<ComponentC />
+				</ChannelContext.Provider>
+			</UserContext.Provider>
+			{/* <DataFetching /> */}
 			{/* <IntervalHookCounter /> */}
 			{/* <IntervalClassCounter /> */}
 			{/* <MouseContainer /> */}
