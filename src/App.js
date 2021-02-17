@@ -1,9 +1,14 @@
 import React from "react";
 import "./App.css";
-import Counter from "./react-hooks/32-Counter";
-import FocusInput from "./react-hooks/33-FocusInput";
-import ClassTimer from "./react-hooks/34-ClassTimer";
-import HookTimer from "./react-hooks/35-HookTimer";
+// import Counter from "./react-hooks/32-Counter";
+// import FocusInput from "./react-hooks/33-FocusInput";
+// import ClassTimer from "./react-hooks/34-ClassTimer";
+// import HookTimer from "./react-hooks/35-HookTimer";
+// import DocTitleOne from "./react-hooks/custom-hooks/36-DocTitleOne";
+// import DocTitleTwo from "./react-hooks/custom-hooks/37-DocTitleTwo";
+// import CounterOne from "./react-hooks/custom-hooks/39-CounterOne";
+// import CounterTwo from "./react-hooks/custom-hooks/40-CounterTwo";
+import UserForm from "./react-hooks/custom-hooks/42-UserForm";
 // import DataFetchingOne from "./react-hooks/26-DataFetchingOne";
 // import DataFetchingTwo from "./react-hooks/27-DataFetchingTwo";
 // import ParentComponent from "./react-hooks/28-ParentComponent";
@@ -90,7 +95,12 @@ function App() {
 
 	return (
 		<div className="App">
-			<HookTimer />
+			<UserForm />
+			{/* <CounterTwo /> */}
+			{/* <CounterOne /> */}
+			{/* <DocTitleTwo /> */}
+			{/* <DocTitleOne /> */}
+			{/* <HookTimer /> */}
 			{/* <ClassTimer /> */}
 			{/* <FocusInput /> */}
 			{/* <Counter /> */}
